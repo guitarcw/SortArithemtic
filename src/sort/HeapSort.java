@@ -1,5 +1,6 @@
 package sort;
-
+//排序类型	平均情况	最好情况	最坏情况	辅助空间	稳定性
+//堆排序	O(nlog₂n)	O(nlog₂n)	O(nlog₂n)	O(1)	不稳定
 public class HeapSort {
     public static void main(String[] args) {
         int[] test={4,2,1,6,4,3,4,12,5,19};
