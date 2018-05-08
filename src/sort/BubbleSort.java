@@ -1,5 +1,6 @@
 package sort;
-
+//排序类型	平均情况	最好情况	最坏情况	辅助空间	稳定性
+//冒泡排序	O(n²)	    O(n)	   O(n²)	     O(1)	   稳定
 public class BubbleSort {
     public static void main(String[] args) {
         int[] test={4,2,1,6,4,3,4,12,5,19};
